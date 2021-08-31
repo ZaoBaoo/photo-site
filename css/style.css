@@ -635,10 +635,13 @@ a {
 
 
 
+
+
+
+
+
+
     /* Carts */
-
-
-
 
 
     .carts__main {
@@ -664,6 +667,45 @@ a {
     .carts_images {
         width: 172.8px;
         height: 196.8px;
+    }
+
+
+
+
+
+
+
+
+    /* Why me */
+
+
+    .why__me--block {
+        /* margin: 50px auto 0; */
+    }
+    
+    .why__me--item {
+        width: 280px;
+        height: 112px;
+
+        border-radius: 42px 0px;
+        padding: 6.3px;
+        margin: 0 auto 20px;
+    }
+    
+    .why__me--content {
+
+        width: 266px;
+        height: 98px;
+        border-radius: 35px 0px;
+        padding: 0 33.6px;
+    }
+
+    .why__me--content p {
+        font-size: 11.2px;
+    }
+
+    .why__me--img {
+        height: 49px;
     }
 }
 
