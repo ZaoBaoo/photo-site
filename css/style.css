@@ -432,12 +432,13 @@ a {
 
 .title__price::after {
     content: "";
-    position: absolute;
+    /* position: absolute; */
     display: block;
+    margin: auto;
     background-color: #989898;
     height: 2px;
     width: 181px;
-    left: 39px;
+    /* left: 39px; */
     bottom: 8px;
 }
 
@@ -738,6 +739,34 @@ a {
         max-height: 400px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+    .price__list__text {
+        padding: 0 100px;
+    }
+}
+
+
+@media (max-width: 430px) {
+    .price__list__text {
+        padding: 0 50px;
+    }
+}
+
+
+
+
+
 
 
 
