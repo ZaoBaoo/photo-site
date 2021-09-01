@@ -60,7 +60,7 @@ a {
 .header_bg {
     width: auto;
     height: 600px;
-    background: url("../img/inner_bg.png") right;
+    background: url("../img/inner_bg.png") center;
 }
 
 .price_bg {
@@ -468,6 +468,37 @@ a {
 .hr {
     margin-bottom: 75px;
 }
+
+
+
+
+
+
+
+
+
+/* Gallery */
+
+.gallery__block__page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery__block__page a {
+    width: 33.33333%;
+    padding: 1px;
+}
+
+.gallery__block__page img {
+    width: 100%;
+    display: block;
+}
+
+
+
+
+
+
 
 
 

@@ -12,3 +12,12 @@ $(document).ready(function(){
         $('body').toggleClass('lock');
     });
 });
+
+// lightGallery(document.getElementById('anchor-tag'));
+
+lightGallery(document.getElementById('anchor-tag'), {
+    plugins: [lgZoom, lgThumbnail]
+});
+
+
+
