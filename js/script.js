@@ -3,7 +3,7 @@ $(document).ready(function(){
         $('.header__burger,.header__menu').toggleClass('active');
         $('body').toggleClass('lock');
     });
-    
+
     $('.slider').slick({
         autoplay:true,
         autoplaySpeed:3000,
@@ -12,8 +12,6 @@ $(document).ready(function(){
         speed:2000
     });
 });
-
-// lightGallery(document.getElementById('anchor-tag'));
 
 lightGallery(document.getElementById('anchor-tag'), {
     plugins: [lgZoom, lgThumbnail]

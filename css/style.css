@@ -482,7 +482,7 @@ a {
 .gallery__block__page {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 95px;
+    padding: 100px 0 20px;
 }
 
 .gallery__block__page a {
