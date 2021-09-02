@@ -482,16 +482,33 @@ a {
 .gallery__block__page {
     display: flex;
     flex-wrap: wrap;
+    padding-top: 95px;
 }
 
 .gallery__block__page a {
     width: 33.33333%;
-    padding: 1px;
+    /* width: 25%; */
+    padding: 1.5px;
+    min-height: 100%;
 }
 
 .gallery__block__page img {
     width: 100%;
+    height: 100%;
     display: block;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.page {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.footer__margin {
+    margin-top: auto;
 }
 
 
@@ -739,6 +756,15 @@ a {
         width: 100%;
     
         min-height: 400px;
+    }
+
+
+
+
+    /* Gallery */
+
+    .gallery__block__page {
+        padding-top: 66px;
     }
 }
 
