@@ -11,10 +11,23 @@ $(document).ready(function(){
         infinite:true,
         speed:2000
     });
+
+    // $("[data-scroll]").on("click", function(event) {
+    //     event.preventDefault();
+
+    //     let scrollEl = $(this).data("scroll")
+    //     let scrollElPos = $(scrollEl).offset().top;
+
+    //     console.log(scrollElPos);
+
+    //     $("html, body").animate({
+    //         scrollTop: scrollElPos
+    //     }, 500)
+    // });
 });
 
 lightGallery(document.getElementById('anchor-tag'), {
-    plugins: [lgZoom, lgThumbnail]
+    // plugins: [lgZoom, lgThumbnail]
 });
 
 
