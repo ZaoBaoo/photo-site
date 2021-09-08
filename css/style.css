@@ -888,6 +888,18 @@ a {
     .price__list__text {
         padding: 0 50px;
     }
+
+    .contacts__column {
+        padding-top: 40px;
+    }
+
+    .contacts__item {
+        margin-bottom: 40px;
+    }
+
+    .contacts__block {
+        margin-bottom: 37px;
+    }
 }
 
 
