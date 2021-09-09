@@ -11,6 +11,8 @@ body {
     -moz-osx-font-smoothing:grayscale;
     max-width: 1920px;
     background: url("../img/page_bg.jpg") center;
+
+    overflow: hidden;
 }
 
 *,
